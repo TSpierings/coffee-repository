@@ -1,15 +1,15 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Home } from './home';
+import { About } from './about';
 
 test('renders title', () => {
-  render(<Home />);
+  render(<About />);
   const titleElement = screen.getByText(/New app/i);
   expect(titleElement).toBeInTheDocument();
 });
 
 test('renders home link', () => {
-  render(<Home />);
-  const linkElement = screen.getByText(/About/i);
+  render(<About />);
+  const linkElement = screen.getByText(/Home/i);
   expect(linkElement).toBeInTheDocument();
 });

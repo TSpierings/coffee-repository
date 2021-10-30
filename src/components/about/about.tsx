@@ -1,7 +1,7 @@
 import * as React from 'react';
-import './home.scss';
+import './about.scss';
 
-export class Home extends React.Component<{}, {}> {
+export class About extends React.Component<{}, {}> {
 
   render() {
     return <div className="content">
@@ -12,7 +12,7 @@ export class Home extends React.Component<{}, {}> {
         Blast it
       </section>
       <footer>
-        <a href="/about">About</a>
+        <a href="/">Home</a>
       </footer>
     </div>;
   }
