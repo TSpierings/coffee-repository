@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import './about.scss';
 
 export class About extends React.Component<{}, {}> {
@@ -12,7 +13,7 @@ export class About extends React.Component<{}, {}> {
         About
       </section>
       <footer>
-        <a href="/">Home</a>
+        <Link to="/">Home</Link>
       </footer>
     </div>;
   }

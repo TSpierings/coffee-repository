@@ -1,7 +1,6 @@
 import './App.scss';
 import React from 'react';
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
   Redirect
@@ -12,21 +11,19 @@ import { About } from '../about/about';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
+    <Switch>
+      <Route exact path="/">
+        <Home />
+      </Route>
 
-        <Route exact path="/about">
-          <About />
-        </Route>
+      <Route exact path="/about">
+        <About />
+      </Route>
 
-        <Route path="*">
-          <Redirect to="/" />
-        </Route>
-      </Switch>
-    </Router>
+      <Route path="*">
+        <Redirect to="/" />
+      </Route>
+    </Switch>
   );
 }
 
