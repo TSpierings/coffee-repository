@@ -9,7 +9,7 @@ export class Home extends React.Component<{}, {}> {
         <h1>New app</h1>
       </header>
       <section>
-        Blast it
+        Home
       </section>
       <footer>
         <a href="/about">About</a>

@@ -9,7 +9,7 @@ export class About extends React.Component<{}, {}> {
         <h1>New app</h1>
       </header>
       <section>
-        Blast it
+        About
       </section>
       <footer>
         <a href="/">Home</a>
